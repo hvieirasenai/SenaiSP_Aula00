@@ -19,7 +19,9 @@ arquivo = st.file_uploader(
 
 if arquivo is not None:
     # print(arquivo.type)
-    match arquivo.type.split('/'):
+    # match arquivo.type.split('/'):
+    tipo_arquivo = arquivo.type.split('/')
+    match tipo_arquivo:        
         case 'application', 'json':
             st.json(loads(arquivo.read()))
         case 'image', _:
