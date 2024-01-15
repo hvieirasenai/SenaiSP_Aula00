@@ -16,8 +16,9 @@ arquivo = st.file_uploader(
 # st.text_input('Email', max_chars=10)
 # st.text_input('Senha', type='password')
 
-if arquivo:
-    print(arquivo.type)
+
+if arquivo is not None:
+    # print(arquivo.type)
     match arquivo.type.split('/'):
         case 'application', 'json':
             st.json(loads(arquivo.read()))
