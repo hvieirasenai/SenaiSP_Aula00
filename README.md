@@ -1,5 +1,5 @@
 <!-- README.md -->
-# Bem Vindo a Aula0 - Tema: "Desenvolvimento de aplicativos computacionais"
+# Bem Vindo a Aula ZERO - Tema: "Desenvolvimento de aplicativos computacionais"
 
 Este projeto foi feito especificamente para uma aula inaugural.
 
@@ -14,3 +14,4 @@ Nesse repositório encontram-se slides, arquivos e códigos em Python.
 
 ### Como sugerir temas para próximas aulas?
 [Abra uma issue]https://github.com/hvieirasenai/SenaiSP_Aula00/issues
+ 
