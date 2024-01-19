@@ -1,0 +1,231 @@
+{
+	"Id": "ff7fb12526515d9f1743c4cc484d46d172c4034d1231bc53e6c15623c07b6295",
+	"Created": "2024-01-12T19:55:20.994013691Z",
+	"Path": "streamlit",
+	"Args": [
+		"run",
+		"streamlit_agent/chat_pandas_df.py",
+		"--server.port",
+		"8051"
+	],
+	"State": {
+		"Status": "exited",
+		"Running": false,
+		"Paused": false,
+		"Restarting": false,
+		"OOMKilled": false,
+		"Dead": false,
+		"Pid": 0,
+		"ExitCode": 0,
+		"Error": "",
+		"StartedAt": "2024-01-12T19:55:21.270103551Z",
+		"FinishedAt": "2024-01-12T21:26:33.052945875Z"
+	},
+	"Image": "sha256:0958f05f388f1854d2151897a302fa9869526f2d90b51d742e2efe7a17b43f9a",
+	"ResolvConfPath": "/var/lib/docker/containers/ff7fb12526515d9f1743c4cc484d46d172c4034d1231bc53e6c15623c07b6295/resolv.conf",
+	"HostnamePath": "/var/lib/docker/containers/ff7fb12526515d9f1743c4cc484d46d172c4034d1231bc53e6c15623c07b6295/hostname",
+	"HostsPath": "/var/lib/docker/containers/ff7fb12526515d9f1743c4cc484d46d172c4034d1231bc53e6c15623c07b6295/hosts",
+	"LogPath": "/var/lib/docker/containers/ff7fb12526515d9f1743c4cc484d46d172c4034d1231bc53e6c15623c07b6295/ff7fb12526515d9f1743c4cc484d46d172c4034d1231bc53e6c15623c07b6295-json.log",
+	"Name": "/LabSenai",
+	"RestartCount": 0,
+	"Driver": "overlay2",
+	"Platform": "linux",
+	"MountLabel": "",
+	"ProcessLabel": "",
+	"AppArmorProfile": "",
+	"ExecIDs": null,
+	"HostConfig": {
+		"Binds": [
+			"C:\\Users\\Master\\Senai\\streamlit-agent-main:/mnt/labsenai"
+		],
+		"ContainerIDFile": "",
+		"LogConfig": {
+			"Type": "json-file",
+			"Config": {}
+		},
+		"NetworkMode": "default",
+		"PortBindings": {
+			"8051/tcp": [
+				{
+					"HostIp": "",
+					"HostPort": "8051"
+				}
+			]
+		},
+		"RestartPolicy": {
+			"Name": "no",
+			"MaximumRetryCount": 0
+		},
+		"AutoRemove": false,
+		"VolumeDriver": "",
+		"VolumesFrom": null,
+		"ConsoleSize": [
+			30,
+			120
+		],
+		"CapAdd": null,
+		"CapDrop": null,
+		"CgroupnsMode": "host",
+		"Dns": [],
+		"DnsOptions": [],
+		"DnsSearch": [],
+		"ExtraHosts": null,
+		"GroupAdd": null,
+		"IpcMode": "private",
+		"Cgroup": "",
+		"Links": null,
+		"OomScoreAdj": 0,
+		"PidMode": "",
+		"Privileged": false,
+		"PublishAllPorts": false,
+		"ReadonlyRootfs": false,
+		"SecurityOpt": null,
+		"UTSMode": "",
+		"UsernsMode": "",
+		"ShmSize": 67108864,
+		"Runtime": "runc",
+		"Isolation": "",
+		"CpuShares": 0,
+		"Memory": 0,
+		"NanoCpus": 0,
+		"CgroupParent": "",
+		"BlkioWeight": 0,
+		"BlkioWeightDevice": [],
+		"BlkioDeviceReadBps": [],
+		"BlkioDeviceWriteBps": [],
+		"BlkioDeviceReadIOps": [],
+		"BlkioDeviceWriteIOps": [],
+		"CpuPeriod": 0,
+		"CpuQuota": 0,
+		"CpuRealtimePeriod": 0,
+		"CpuRealtimeRuntime": 0,
+		"CpusetCpus": "",
+		"CpusetMems": "",
+		"Devices": [],
+		"DeviceCgroupRules": null,
+		"DeviceRequests": null,
+		"MemoryReservation": 0,
+		"MemorySwap": 0,
+		"MemorySwappiness": null,
+		"OomKillDisable": false,
+		"PidsLimit": null,
+		"Ulimits": null,
+		"CpuCount": 0,
+		"CpuPercent": 0,
+		"IOMaximumIOps": 0,
+		"IOMaximumBandwidth": 0,
+		"MaskedPaths": [
+			"/proc/asound",
+			"/proc/acpi",
+			"/proc/kcore",
+			"/proc/keys",
+			"/proc/latency_stats",
+			"/proc/timer_list",
+			"/proc/timer_stats",
+			"/proc/sched_debug",
+			"/proc/scsi",
+			"/sys/firmware",
+			"/sys/devices/virtual/powercap"
+		],
+		"ReadonlyPaths": [
+			"/proc/bus",
+			"/proc/fs",
+			"/proc/irq",
+			"/proc/sys",
+			"/proc/sysrq-trigger"
+		]
+	},
+	"GraphDriver": {
+		"Data": {
+			"LowerDir": "/var/lib/docker/overlay2/1a58f09c59f28a80e726e4f18ccb4864f850363f73e1cc3fe75ec57fa2d8f9da-init/diff:/var/lib/docker/overlay2/7quzebs982wvapp8xvags5erh/diff:/var/lib/docker/overlay2/8ryv1o7ehje801qbuzosaqz7g/diff:/var/lib/docker/overlay2/1d8af7b7a374a51b16efa2ef64527c50d5a3d3cb1580bb3a09d6e94f36b2ee6f/diff:/var/lib/docker/overlay2/74ab3d311546c06d2c4fe6a8d017ba761f107fe4217650ff4d7657624869369d/diff:/var/lib/docker/overlay2/4ad4368f7a372c96af62033a0cae4b8104a18f7c54cb2eb0c20cdf0d07e95898/diff:/var/lib/docker/overlay2/fe3b537445127de311b38365d462c89563761eb605c6f878bcbf8efb664781ee/diff:/var/lib/docker/overlay2/19a433c9f9f39c905d49c5c05facc84f91eb9bef3ca39ca8831a3ee715667413/diff",
+			"MergedDir": "/var/lib/docker/overlay2/1a58f09c59f28a80e726e4f18ccb4864f850363f73e1cc3fe75ec57fa2d8f9da/merged",
+			"UpperDir": "/var/lib/docker/overlay2/1a58f09c59f28a80e726e4f18ccb4864f850363f73e1cc3fe75ec57fa2d8f9da/diff",
+			"WorkDir": "/var/lib/docker/overlay2/1a58f09c59f28a80e726e4f18ccb4864f850363f73e1cc3fe75ec57fa2d8f9da/work"
+		},
+		"Name": "overlay2"
+	},
+	"Mounts": [
+		{
+			"Type": "bind",
+			"Source": "C:\\Users\\Master\\Senai\\streamlit-agent-main",
+			"Destination": "/mnt/labsenai",
+			"Mode": "",
+			"RW": true,
+			"Propagation": "rprivate"
+		}
+	],
+	"Config": {
+		"Hostname": "ff7fb1252651",
+		"Domainname": "",
+		"User": "",
+		"AttachStdin": false,
+		"AttachStdout": false,
+		"AttachStderr": false,
+		"ExposedPorts": {
+			"8051/tcp": {}
+		},
+		"Tty": true,
+		"OpenStdin": false,
+		"StdinOnce": false,
+		"Env": [
+			"PATH=/app/.venv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+			"LANG=C.UTF-8",
+			"GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+			"PYTHON_VERSION=3.11.4",
+			"PYTHON_PIP_VERSION=23.1.2",
+			"PYTHON_SETUPTOOLS_VERSION=65.5.1",
+			"PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/0d8570dc44796f4369b652222cf176b3db6ac70e/public/get-pip.py",
+			"PYTHON_GET_PIP_SHA256=96461deced5c2a487ddc65207ec5a9cffeca0d34e7af7ea1afc470ff0d746207",
+			"VIRTUAL_ENV=/app/.venv"
+		],
+		"Cmd": [
+			"streamlit",
+			"run",
+			"streamlit_agent/chat_pandas_df.py",
+			"--server.port",
+			"8051"
+		],
+		"Image": "langchain-streamlit-agent",
+		"Volumes": null,
+		"WorkingDir": "",
+		"Entrypoint": null,
+		"OnBuild": null,
+		"Labels": {}
+	},
+	"NetworkSettings": {
+		"Bridge": "",
+		"SandboxID": "6d721e99ece79fe8eadef7c99c5f9cc261ea0010d195c467d3dd35c7069793d7",
+		"HairpinMode": false,
+		"LinkLocalIPv6Address": "",
+		"LinkLocalIPv6PrefixLen": 0,
+		"Ports": {},
+		"SandboxKey": "/var/run/docker/netns/6d721e99ece7",
+		"SecondaryIPAddresses": null,
+		"SecondaryIPv6Addresses": null,
+		"EndpointID": "",
+		"Gateway": "",
+		"GlobalIPv6Address": "",
+		"GlobalIPv6PrefixLen": 0,
+		"IPAddress": "",
+		"IPPrefixLen": 0,
+		"IPv6Gateway": "",
+		"MacAddress": "",
+		"Networks": {
+			"bridge": {
+				"IPAMConfig": null,
+				"Links": null,
+				"Aliases": null,
+				"MacAddress": "",
+				"NetworkID": "29a4c9963168bba990699d1acdf3bd5114dcd6b47350517e390640c19d35c655",
+				"EndpointID": "",
+				"Gateway": "",
+				"IPAddress": "",
+				"IPPrefixLen": 0,
+				"IPv6Gateway": "",
+				"GlobalIPv6Address": "",
+				"GlobalIPv6PrefixLen": 0,
+				"DriverOpts": null
+			}
+		}
+	}
+}
